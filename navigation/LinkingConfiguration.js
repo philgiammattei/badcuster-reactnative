@@ -6,8 +6,11 @@ export default {
     Root: {
       path: 'root',
       screens: {
+        AlbumList: 'albumList',
+        MusicScreen: 'musicScreen',
         Home: 'home',
         Links: 'links',
+        SongList: 'songList',
       },
     },
   },

@@ -4,18 +4,28 @@ import * as React from 'react';
 import TabBarIcon from '../components/TabBarIcon';
 import HomeScreen from '../screens/HomeScreen';
 import LinksScreen from '../screens/LinksScreen';
+import AlbumList from '../screens/AlbumList'
+import MusicScreen from '../screens/MusicScreen';
 
 const BottomTab = createBottomTabNavigator();
-const INITIAL_ROUTE_NAME = 'Home';
+const INITIAL_ROUTE_NAME = 'Music';
 
 export default function BottomTabNavigator({ navigation, route }) {
   // Set the header title on the parent stack navigator depending on the
   // currently active tab. Learn more in the documentation:
   // https://reactnavigation.org/docs/en/screen-options-resolution.html
-  navigation.setOptions({ headerTitle: getHeaderTitle(route) });
+  navigation.setOptions({ headerShown: false });
 
   return (
     <BottomTab.Navigator initialRouteName={INITIAL_ROUTE_NAME}>
+      <BottomTab.Screen
+        name="Music"
+        component={MusicScreen}
+        options={{
+          title: 'Music',
+          tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="ios-musical-notes" />,
+        }}
+      />
       <BottomTab.Screen
         name="Home"
         component={HomeScreen}
@@ -42,6 +52,8 @@ function getHeaderTitle(route) {
   switch (routeName) {
     case 'Home':
       return 'How to get started';
+    case 'Music':
+      return 'Music';
     case 'Links':
       return 'Links to learn more';
   }

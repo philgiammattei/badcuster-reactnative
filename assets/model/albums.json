@@ -1,0 +1,152 @@
+{
+    "albums": [
+        {
+            "id": 1,
+            "name":"Needs Work",
+            "cover":"./assets/album-art/needs-work.jpg",
+            "release": 2020
+        },
+        {
+            "id": 2,
+            "name":"Bad Custer",
+            "cover":"./assets/album-art/bad-custer.jpg",
+            "release": 2018
+        },
+        {
+            "id": 3,
+            "name":"LoveCraft",
+            "cover":"./assets/album-art/lovecraft.png",
+            "release": 2018
+        },
+        {
+            "id": 4,
+            "name":"Radiation",
+            "cover":"./assets/album-art/radiation.jpeg",
+            "release": 2018
+        }
+        
+    ],
+    "songs": [
+        {
+            "track": 1,
+            "title": "Falalala",
+            "album": "Needs Work",
+            "src": "./assets/songs/01-Falalala.mp3"
+        },
+        {
+            "track": 2,
+            "title": "Tiny Man",
+            "album": "Needs Work",
+            "src": "./assets/songs/02-Tiny_Man.mp3"
+        },
+        {
+            "track": 3,
+            "title": "Lies of the Few",
+            "album": "Needs Work",
+            "src": "./assets/songs/03-Lies_of_the_Few.mp3"
+        },
+        {
+            "track": 4,
+            "title": "I Still Love You",
+            "album": "Needs Work",
+            "src": "./assets/songs/04-I_Still_Love_You.mp3"
+        },
+        {
+            "track": 5,
+            "title": "Outlaw",
+            "album": "Needs Work",
+            "src": "./assets/songs/05-Outlaw.mp3"
+        },
+        {
+            "track": 6,
+            "title": "John Woo",
+            "album": "Needs Work",
+            "src": "./assets/songs/06-John_Woo.mp3"
+        },
+        {
+            "track": 7,
+            "title": "Outside of Texas",
+            "album": "Needs Work",
+            "src": "./assets/songs/07-Outside_of_Texas.mp3"
+        },
+        {
+            "track": 8,
+            "title": "No One Knows",
+            "album": "Needs Work",
+            "src": "./assets/songs/08-No_One_Knows.mp3"
+        },
+        {
+            "track": 9,
+            "title": "The Ballad of Jesus Christ",
+            "album": "Needs Work",
+            "src": "./assets/songs/09-The_Ballad_of_Jesus_Christ.mp3"
+        },
+        {
+            "track": 1,
+            "title": "We Don't Play Rock 'N' Roll",
+            "album": "Bad Custer",
+            "src": "./assets/songs/01-We_Dont_Play_Rock_N_Roll.mp3"
+        },
+        {
+            "track": 2,
+            "title": "I'm Doing Good",
+            "album": "Bad Custer",
+            "src": "./assets/songs/02-Im_Doing_Good.mp3"
+        },
+        {
+            "track": 3,
+            "title": "Bones Like Lightning",
+            "album": "Bad Custer",
+            "src": "./assets/songs/03-Bones_Like_Lightning.mp3"
+        },
+        {
+            "track": 4,
+            "title": "Bigger Than You",
+            "album": "Bad Custer",
+            "src": "./assets/songs/04-Bigger_Than_You.mp3"
+        },
+        {
+            "track": 5,
+            "title": "Andrea",
+            "album": "Bad Custer",
+            "src": "./assets/songs/05-Andrea.mp3"
+        },
+        {
+            "track": 6,
+            "title": "I'm Sorry, But I Don't Forget",
+            "album": "Bad Custer",
+            "src": "./assets/songs/06-Im_Sorry_But_I_Dont_Forget.mp3"
+        },
+        {
+            "track": 7,
+            "title": "Where Does She Go",
+            "album": "Bad Custer",
+            "src": "./assets/songs/07-Where_Does_She_Go.mp3"
+        },
+        {
+            "track": 8,
+            "title": "Coconut",
+            "album": "Bad Custer",
+            "src": "./assets/songs/08-Coconut.mp3"
+        },
+        {
+            "track": 9,
+            "title": "Everybody's Saying",
+            "album": "Bad Custer",
+            "src": "./assets/songs/09-Everybodys_Saying.mp3"
+        },
+        {
+            "track": 1,
+            "title": "Radiation",
+            "album": "Radiation",
+            "src": "./assets/songs/01-Radiation.mp3"
+        },
+        {
+            "track": 1,
+            "title": "LoveCraft",
+            "album": "LoveCraft",
+            "src": "./assets/songs/01/LoveCraft.mp3"
+        }
+        
+    ]
+}
